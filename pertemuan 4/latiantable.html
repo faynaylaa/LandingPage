@@ -1,0 +1,71 @@
+<html>
+    <body>
+        <!--Input-->
+        <!--Text, Password&Textarea-->
+        <input type="text" name=nim-txt>
+        <input type="password" name=password>
+        <br>
+        <textarea rows="5" cols="50" name="description">
+            Masukkan diskripsi disini
+        </textarea>
+        <br>
+        <form action="" method="POST">
+            <table>
+            <tr> 
+                <td>Nim: </td>
+                <td><input type="text" name=nim-txt></td>
+            </tr>   
+            <br>
+            <tr> 
+                <td>Password :</td>
+                <td><input type="password" name=password></td>
+            </tr>
+            </table>
+
+        <!--Checkbox-->
+        
+        <table>
+            <tr>
+                <td>Pilih UKM</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="ukm-cb" value="unic">UNIC</td>
+                <td><input type="checkbox" name="ukm-cb" value="bahasa">Bahasa</td>
+                <td><input type="checkbox" name="ukm-cb" value="karate">Karate</td>
+            </tr>
+        </table>
+
+        <!--Radio Button-->
+        
+        <table>
+            <tr>
+                <td> Gender : </td>
+                <td><input type="radio" name="gender-rad" value="pria">Pria</td>
+                <td><input type="radio" name="gender-rad" value="wanita">Wanita</td>
+            </tr>
+        </table>
+
+        <!--Dropdown-->  
+        
+        <table>
+            <tr>
+                <td>Pilih Fakultas : </td>
+                <td><select name = fakultas-dd">
+                    <option value="filkom-dd" selected>FILKOM</option>
+                    <option value="hukum-dd" selected> HUKUM </option>
+                </select>
+                </td>
+            </tr>
+        </table>
+
+        <!--Submit dan Reset--> 
+        
+        <table>
+            <tr>
+                <td><input type="submit" name="submit-bt" value="Submit"></td>
+                <td><input type="reset" name="reser-bt" value="Reset"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>

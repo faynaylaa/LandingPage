@@ -1,0 +1,58 @@
+#all{
+    font-family: Calibri;
+    background-image: url("pattern.png");
+    margin: 0;
+}
+.perkenalan{
+    text-align: center;
+    background-color: #918e8e;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    width: 100%;
+}
+.isi {
+    padding-top: 30px;
+    padding-left: 26.3%;
+    padding-right: 26.3%;
+}
+
+.kotak1{
+    background-color: rgb(221, 221, 221);
+    width: 250px;
+    height: 350px;
+    border : 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.kotak2{
+    background-color: rgb(221, 221, 221);
+    width: 250px;
+    height: 350px;
+    border : 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.kotak3{
+    background-color:rgb(221, 221, 221);
+    width: 250px;
+    height: 350px;
+    border : 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
